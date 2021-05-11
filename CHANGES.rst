@@ -1,9 +1,9 @@
 .. currentmodule:: click
 
-Version 8.0
------------
+Version 8.0.0
+-------------
 
-Unreleased
+Released 2021-05-11
 
 -   Drop support for Python 2 and 3.5.
 -   Colorama is always installed on Windows in order to provide style
@@ -215,6 +215,8 @@ Unreleased
 -   When defining a parameter, ``default`` is validated with
     ``multiple`` and ``nargs``. More validation is done for values being
     processed as well. :issue:`1806`
+-   ``HelpFormatter.write_text`` uses the full line width when wrapping
+    text. :issue:`1871`
 
 
 Version 7.1.2
